@@ -15,7 +15,7 @@ function makeRain(){
                 <source src="./Media/rain.mp3" type="audio/mpeg">
             </audio>
             <video autoplay muted loop id="myVideo">
-                <source src="./Media/rain2.mp4" type="video/mp4">
+                <source src="./Media/rain3.mp4" type="video/mp4">
             </video>
         </div>
         `
