@@ -1,0 +1,40 @@
+body{
+    background-color: #3C3B3C;
+    margin: 0;
+    padding: 0;
+    background-size: 100vw auto;
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+nav{
+    background-color: #596049;
+    margin: 0;
+    height: 10vh;
+    display: flex;
+    align-content: center;
+    filter: drop-shadow(8px 8px 10px black);
+}
+
+h1{
+    margin: inherit;
+    color: #E0E0D6;
+    filter: drop-shadow(5px 5px 5px black);
+    width: 100vw;
+    text-align: center;
+    margin-top: .5em;
+    font-size: 40px;
+}
+
+video{
+    width: 100vw;
+    display: flex;
+}
+
+button{
+    border-radius: 50%;
+    border:0px;
+    margin: 1vh;
+    width:9vh;
+    filter: drop-shadow(5px 5px 5px black);
+}
