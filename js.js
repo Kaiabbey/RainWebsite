@@ -50,7 +50,6 @@ function destoryRain(){
 }
 
 function muteRain(){
-    var b = document.getElementById("RainPlayer");
     if(mute == false){
         mute = true;
         document.getElementById("muteBtn").innerHTML = `<i class="fa fa-volume-off fa-3x" aria-hidden="true"></i>`;
