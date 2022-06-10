@@ -5,7 +5,6 @@ setInterval(() => {
 }, 10000);
 
 function makeRain(){
-    destoryRain();
     console.log('test');
     if(mute == false){
         document.getElementById("body").insertAdjacentHTML("afterend",
@@ -69,7 +68,10 @@ function checkRain(){
     .then(data => {
       console.log(data);
       if(data.raining == 'true'){
-          makeRain()
+          var myEle = document.getElementById("rain");
+          if(myEle){
+              makeRain()
+          }
       }
       else{
           destoryRain()
